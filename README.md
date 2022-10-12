@@ -1,22 +1,5 @@
 <!-- PROJECT LOGO -->
 <br />
-<p align="center">
-    <img src="https://socialify.git.ci/niloysikdar/Get-Set-Go/image?description=1&font=Raleway&forks=1&issues=1&language=1&name=1&owner=1&pattern=Plus&pulls=1&stargazers=1&theme=Dark" alt="Logo" width="75%">
-
-  <h1 align="center">Get Set Go</h1>
-
-  <h3 align="center">
-    It's time to explore the rich heritage and culture of India
-    <br />
-    <br />
-    <a href="https://niloysikdar.github.io/Get-Set-Go">View Demo</a>
-    ·
-    <a href="https://github.com/niloysikdar/Get-Set-Go/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/niloysikdar/Get-Set-Go/issues">Request Feature</a>
-  </h3>
-</p>
-
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Table of Contents</summary>
@@ -106,23 +89,3 @@ Contributions are what make the open source community such an amazing place to l
 4. Commit your Changes ( `git commit -m 'Add some AmazingFeature'` )
 5. Push to the Branch ( `git push origin feature/AmazingFeature` )
 6. Open a Pull Request
-
-<!-- LICENSE -->
-
-## License
-
-Distributed under the MIT License. See [`LICENSE`](https://github.com/niloysikdar/Get-Set-Go/blob/main/LICENSE) for more information.
-
-## Contributors
-
-Thanks to these wonderful people ✨✨:
-
-<table>
-	<tr>
-		 <td>
-  <a href="https://github.com/niloysikdar/Get-Set-Go/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=niloysikdar/Get-Set-Go" />
-  </a>
-		</td>
-	</tr>
-</table>
