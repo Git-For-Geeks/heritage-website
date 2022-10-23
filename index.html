@@ -11,21 +11,23 @@
   <title>Get Set Go</title>
   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
   <link rel="stylesheet" href="styles/index.css">
-  
+
   <!--aeroplane icon-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!--font of h1-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Fredericka+the+Great&family=Inknut+Antiqua:wght@500&family=Italiana&family=Metamorphous&family=Mr+Bedfort&family=Rye&family=Sancreek&display=swap" rel="stylesheet"> 
+  <link
+    href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Fredericka+the+Great&family=Inknut+Antiqua:wght@500&family=Italiana&family=Metamorphous&family=Mr+Bedfort&family=Rye&family=Sancreek&display=swap"
+    rel="stylesheet">
   <!--font of h3-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body class="no_scroll_bar">
-  <div class="preloader_container" id="preloader_container">
+  <!-- <div class="preloader_container" id="preloader_container">
     <div class="loader" id="loader">
       <div id="pre-loader" class="pre-loader">
         <div id="ball1"></div>
@@ -38,7 +40,7 @@
         <span id="dot1">.</span><span id="dot2">.</span><span id="dot3">.</span>
       </h3>
     </div>
-  </div>
+  </div> -->
   <div class="container1">
     <section>
       <div class="navbar-section">
@@ -55,7 +57,7 @@
           <a href="#" target="_blank"><i class="fa-solid fa-circle-user"></i></a>
         </div>
         <div class="btn">
-          <button><i class="fa-solid fa-bars"></i></button>
+          <button><i class="fa-solid fa-bars" style="background: transparent ; cursor: pointer;"></i></button>
         </div>
       </div>
 
@@ -71,7 +73,7 @@
       </div>
 
     </section>
-    
+
   </div>
   <div class="container2">
     <section>
@@ -93,18 +95,18 @@
   <div class="container3">
     <section id="slider-container" class="slider-container">
       <div class="swiper home-slider">
-        
+
         <div class="swiper-wrapper" id="swiper-wrapper-1">
           <!-- Dynamic Sliders -->
         </div>
         <div class="swiper-pagination"></div>
         <div class="swiper-button-next" id="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
-        
+
       </div>
-      
+
     </section>
-    
+
   </div>
   <script src="./js/app.js"></script>
   <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
@@ -124,13 +126,13 @@
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
       },
-      
+
     });
-    
-    
+
+
   </script>
   <script>
-       const bodyTag = document.body;
+    const bodyTag = document.body;
     const loaderContainer = document.getElementById("preloader_container");
     window.onload = function () {
       setTimeout(function () {
