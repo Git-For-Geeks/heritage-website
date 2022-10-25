@@ -102,11 +102,7 @@ body {
   flex-direction: row;
   justify-content: center;
   padding: 1rem;
-  background: radial-gradient(
-    circle,
-    rgba(106, 4, 173, 1) 22%,
-    rgb(2, 160, 192) 62%
-  );
+  background: rgba(253, 251, 251, 0.055);
   /* background: blue; */
 
   height: 8vh;
@@ -560,8 +556,7 @@ html {
 
 .navbar-section a:hover {
   background: #fcfafafa;
-  padding: 16px 50px 14.5px 50px;
-  border-bottom: 8px solid #519fc1;
+  border-bottom: 3px solid rgba(155, 75, 75, 0.781);
   color: black;
   font-weight: bold;
   transition: 0.4s;
@@ -579,7 +574,8 @@ html {
   font-weight: bold;
   transition: 0.4s;
 }
-rgba(155, 75, 75, 0.781) .fa-solid i:hover {
+
+.fa-solid i:hover {
   color: black;
 }
 
@@ -737,4 +733,85 @@ rgba(155, 75, 75, 0.781) .fa-solid i:hover {
     position: relative;
     top: 5px;
   }
+}
+
+.line {
+  padding-top: 0.2%;
+}
+footer {
+  background: linear-gradient(
+    0deg,
+    rgba(2, 48, 106, 1) 19%,
+    rgba(84, 82, 176, 1) 69%
+  );
+  color: #fff;
+}
+
+.footer-basic ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 1.125rem;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.footer-basic li {
+  padding: 0 0.625rem;
+}
+
+.footer-basic ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity: 1;
+  color: #fff;
+}
+
+.footer-basic .social {
+  text-align: center;
+  padding-bottom: 1.56rem;
+  padding-top: 1.25rem;
+}
+
+.footer-basic .social > a {
+  font-size: 1.46rem;
+  width: 2.32rem;
+  height: 2.32rem;
+  line-height: 2.32rem;
+  display: inline-block;
+
+  text-align: center;
+  border-radius: 50%;
+  border: 0.05rem solid #ccc;
+  margin: 0 1.2%;
+  color: inherit;
+  opacity: 0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity: 0.9;
+  color: #fff;
+  border: 0.05rem solid rgb(255, 255, 255);
+}
+
+.footer-basic .copyright {
+  margin-top: 0.93rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #aaa;
+  margin-bottom: 0;
+  padding-bottom: 1%;
+}
+
+p.arrow {
+  font-size: 1.46rem;
+  padding-right: 2.9%;
+  text-align: right;
+  color: inherit;
+  opacity: 0.75;
+  padding-bottom: 2.9%;
 }
